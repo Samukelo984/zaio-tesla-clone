@@ -1,7 +1,35 @@
-
-
-#nav-styles {
-    color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
-.nav-item {} 
+.banner-wrap {
+    background-image: url(./assets/background-img.jpg);
+    background-size: cover; 
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw; 
+}
+
+/* NAVBAR CODE */
+
+nav {
+    height: 56px; 
+    padding: 0 32px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    height: 24px;
+    width: 120px;
+} 
+
+/* MAINBODY CODE */
+
+main {
+    text-align: center; 
+}
