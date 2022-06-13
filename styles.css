@@ -1,8 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: "Roboto", sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
 }
+ 
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400; 
+    padding: 6px 24px 16px 24px; 
+} 
 
 .banner-wrap {
     background-image: url(./assets/background-img.jpg);
@@ -31,5 +48,17 @@ nav {
 /* MAINBODY CODE */
 
 main {
+    height: calc(100vh - 56px);
     text-align: center; 
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+} 
+
+.title-section {
+    margin-top: calc(164px - 56px); 
+} 
+
+.actions-area {
+    margin-bottom: 100px;
+} 
